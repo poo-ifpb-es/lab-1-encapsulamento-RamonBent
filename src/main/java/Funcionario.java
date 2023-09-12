@@ -35,8 +35,6 @@ public class Funcionario {
         return SalarioAnual = (salario* 12);
     }
     public void concederAumento(float valor){
-        //if (valor >= 0 && valor <= 100){
-            this.salario = salario*(valor/100+1);
-        //}
+        this.salario = salario*(valor/100+1);
     }
 }
